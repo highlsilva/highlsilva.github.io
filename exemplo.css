@@ -19,7 +19,7 @@ body {
 .hero {
   height: 61rem;
   width: 100%;
-  background-image: url(images/imagem4.png);
+  background-image: url(images/banner.png);
   background-size: cover;
   background-position: center;
 }
@@ -995,7 +995,7 @@ footer p:nth-child(2) {
   .hero {
     height: 50rem;
     width: 63rem;
-    background-image: url(images/imagem4.png);
+    background-image: url(images/banner.png);
     background-size: cover;
     background-position: center;
   }
