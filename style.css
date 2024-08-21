@@ -54,7 +54,7 @@ li.btn {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 13px 30px;
+  padding: 0.8125rem 1.875rem;
   border-radius: 30px;
   transition: 0.4s;
   font-size: 17px;
@@ -75,7 +75,7 @@ li.btn:hover {
 
 /* mobile-menu = botão menu */
 .mobile-menu div {
-  width: 32px;
+  width: 100%;
   height: 2px;
   background: #fff;
   margin: 8px;
@@ -137,8 +137,8 @@ li.btn:hover {
 }
 
 .icone {
-  height: 60px;
-  width: 60px;
+  height: 3.75rem;
+  width: 3.75rem;
   margin-top: 2rem;
   margin-left: 5rem;
 }
@@ -152,7 +152,7 @@ li.btn:hover {
 
 #times {
   font-size: 20px;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 }
 
 .a2 {
@@ -224,7 +224,7 @@ h5 {
 }
 
 .newslatter form {
-  width: 380px;
+  width: 100%;
   max-width: 100%;
   position: relative;
 }
@@ -232,7 +232,7 @@ h5 {
 .newslatter form input:first-child {
   display: inline-block;
   width: 100%;
-  padding: 14px 130px 14px 15px;
+  padding:  0.875rem 8.125rem 0.875rem 0.9375rem;
   border: 2px solid rgb(248, 20, 20);
   outline: none;
   border-radius: 30px;
@@ -243,7 +243,7 @@ h5 {
   display: inline-block;
   outline: none;
   border: none;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   border-radius: 30px;
   background-color: rgb(248, 20, 20);
   color: white;
@@ -255,23 +255,23 @@ h5 {
 
 .about {
   width: 100%;
-  padding: 100px 0px;
+  padding: 6.25rem 0rem;
   background-color: #191919;
 }
 
 .about img {
   height: auto;
-  width: 450px;
+  width: 28.125rem;
   margin-left: 10px;
 }
 
 .about-text {
-  width: 550px;
+  width:34.375rem;
   margin-left: 30px;
 }
 
 .main {
-  width: 1130px;
+  width:70.625rem;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
@@ -309,7 +309,7 @@ button {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 13px 30px;
+  padding: 0.8125rem 1.875rem;
   border-radius: 30px;
   transition: 0.4s;
   margin-left: 8rem;
@@ -321,7 +321,7 @@ button {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 9px 2px;
+  padding:0.5625rem 0.125rem;
   border-radius: 30px;
   transition: 0.4s;
 }
@@ -341,7 +341,7 @@ button:hover {
 .service {
   background: #101010;
   width: 100%;
-  padding: 100px;
+  padding: 6.25rem;
 }
 
 .title h2 {
@@ -360,8 +360,8 @@ button:hover {
 
 .card {
   position: relative;
-  height: 434px;
-  width: 422px;
+  height: 24.5rem;
+  width: 33.875rem;
   z-index: 10;
   background: #191919;
   border-radius: 20px;
@@ -373,7 +373,7 @@ button:hover {
 .card::before {
   content: "";
   position: absolute;
-  width: 150px;
+  width: 100%;
   height: 200%;
   background: linear-gradient(rgb(34, 0, 255), red);
   animation: animate 5s linear infinite;
@@ -415,7 +415,7 @@ button:hover {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 9px 2px;
+  padding: 0.5625rem 0.125rem;
   border-radius: 30px;
   transition: 0.4s;
 }
@@ -439,7 +439,7 @@ button:hover {
 .Card::before {
   content: "";
   position: absolute;
-  width: 150px;
+  width:100%;
   height: 200%;
   background: linear-gradient(rgb(34, 0, 255), red);
   animation: animate 5s linear infinite;
@@ -474,8 +474,8 @@ button:hover {
 
 .Card {
   position: relative;
-  height: 536px;
-  width: 542px;
+  height: 33.5rem;
+  width: 33.875rem;
   z-index: 10;
   background: rgb(25, 25, 25);
   border-radius: 20px;
@@ -508,7 +508,7 @@ button:hover {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 9px 2px;
+  padding: 0.5625rem 0.125rem;
   border-radius: 30px;
   transition: 0.4s;
 }
@@ -554,7 +554,7 @@ H5 {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 16px 61px;
+  padding: 1rem 3.8125rem;
   border-radius: 30px;
   transition: 0.4s;
   margin-top: 2rem;
@@ -641,7 +641,7 @@ H5 {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 0.625rem 1.5625rem;
   margin-top: 2vh;
 }
 
@@ -697,7 +697,7 @@ nav ul li a:hover {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 13px 30px;
+  padding: 0.8125rem 1.875rem;
   border-radius: 30px;
   transition: 0.4s;
 }
@@ -729,7 +729,7 @@ footer p:nth-child(1) {
 footer p:nth-child(2) {
   color: white;
   font-size: 17px;
-  width: 500px;
+  width: 100%;
   text-align: center;
   line-height: 26px;
 }
@@ -739,7 +739,7 @@ footer p:nth-child(2) {
 }
 
 .social a {
-  width: 45px;
+  width: 2.8125rem;
   height: 45px;
   display: flex;
   align-items: center;
@@ -768,7 +768,7 @@ footer p:nth-child(2) {
   nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 0px 0px;
+    padding: 0rem 0rem;
     margin-top: 2vh;
   }
 }
@@ -925,7 +925,7 @@ footer p:nth-child(2) {
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 9px 2px;
+    padding: 0.5625rem 0.125rem;
     border-radius: 30px;
     transition: 0.4s;
     font-size: 17px;
@@ -937,7 +937,7 @@ footer p:nth-child(2) {
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 0px 1px 0px 19px;
+    padding: 0rem 0.0625rem 0rem 1.1875rem;
     border-radius: 30px;
     transition: 0.4s;
     margin-top: 1rem;
@@ -973,7 +973,7 @@ footer p:nth-child(2) {
 
   /* projetos termina aqui */
   .main {
-    width: 1130px;
+    width: 100%;
     max-width: 95%;
     margin: 0 auto;
     display: inline-block;
@@ -1029,7 +1029,7 @@ footer p:nth-child(2) {
     letter-spacing: 2px;
     font-size: 41px;
     text-transform: capitalize;
-    margin: 8px -305px 25px 223px;
+    margin: 8px -305px 25px 132px;
   }
 
   .about img {
@@ -1059,7 +1059,7 @@ footer p:nth-child(2) {
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 13px 30px;
+    padding:0.8125rem 1.875rem;
     border-radius: 30px;
     transition: 0.4s;
     font-size: 24px;
@@ -1067,9 +1067,9 @@ footer p:nth-child(2) {
   }
 
   .card {
-    height: 523px;
-    width: 510px;
-    padding: 27px 33px;
+    height: 33.5rem;
+    width: 33.875rem;
+    padding: 1.6875rem 2.0625rem;
     background: #191919;
     border-radius: 20px;
     margin: 15px;

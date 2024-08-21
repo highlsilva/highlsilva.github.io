@@ -1,0 +1,1167 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Lyfes \u2013 Feminine Life Coach & Speaker Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Blog",
+            "screenshot": "screenshots\/single-blog.jpg",
+            "source": "templates\/single-blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/single-blog\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Appointment",
+            "screenshot": "screenshots\/metform-appointment.jpg",
+            "source": "templates\/metform-appointment.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/appointment-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Appointment",
+            "screenshot": "screenshots\/appointment.jpg",
+            "source": "templates\/appointment.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/appointment\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Contact",
+            "screenshot": "screenshots\/metform-contact.jpg",
+            "source": "templates\/metform-contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Plans",
+            "screenshot": "screenshots\/our-plans.jpg",
+            "source": "templates\/our-plans.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/our-plans\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/404-page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.1.0",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegstudio"
+        },
+        {
+            "name": "MetForm",
+            "version": "1.5.4",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.4.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Logo_Lyfes-3-01.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Logo_Lyfes-3-01-800x437.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 14516,
+            "dimensions": [
+                826,
+                451
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/lyfes\/"
+        },
+        {
+            "filename": "Ornamen-star-1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Ornamen-star-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 4294,
+            "dimensions": [
+                195,
+                246
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/15-sparkle-light-icons-DYMY6X"
+        },
+        {
+            "filename": "Ornamen-star-2.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Ornamen-star-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 3038,
+            "dimensions": [
+                155,
+                159
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/15-sparkle-light-icons-DYMY6X"
+        },
+        {
+            "filename": "circle-back.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/circle-back-800x996.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 45428,
+            "dimensions": [
+                1140,
+                1420
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/lyfes\/"
+        },
+        {
+            "filename": "8-increase.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/8-increase.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4348,
+            "dimensions": [
+                165,
+                283
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/25-stylish-cryptocurrency-outline-icons-33S3SUX"
+        },
+        {
+            "filename": "7-life-up.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/7-life-up.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 8658,
+            "dimensions": [
+                220,
+                219
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/25-video-game-outline-icons-ARYBYU9"
+        },
+        {
+            "filename": "21-paper-airplane.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/21-paper-airplane.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 6499,
+            "dimensions": [
+                218,
+                218
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/25-back-to-school-outline-icons-VKPP5JW"
+        },
+        {
+            "filename": "23-intelligent.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/23-intelligent.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 10403,
+            "dimensions": [
+                272,
+                273
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/25-back-to-school-outline-icons-VKPP5JW"
+        },
+        {
+            "filename": "hero1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/hero1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 118340,
+            "dimensions": [
+                452,
+                662
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-smiling-beautiful-lady-looking-determi-53YWL7Q"
+        },
+        {
+            "filename": "Line-round.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Line-round.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 13553,
+            "dimensions": [
+                428,
+                412
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/pastel-shapes-and-elements-4HX5P7M"
+        },
+        {
+            "filename": "image_2-e1638154594679.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/image_2-e1638154594679.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 114189,
+            "dimensions": [
+                600,
+                905
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-confident-girl-with-glamour-hairdo-holdi-V6P9ZD4"
+        },
+        {
+            "filename": "Blob.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Blob.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 11616,
+            "dimensions": [
+                655,
+                649
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/lyfes\/"
+        },
+        {
+            "filename": "Frame-13.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-13.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1118,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/university-icons-line-and-solid-BCX3VDN"
+        },
+        {
+            "filename": "Frame-14.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-14.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 3672,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/mental-health-line-and-solid-J3LH49K"
+        },
+        {
+            "filename": "Frame-15.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-15.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2231,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/board-game-line-and-solid-A5BCQAW"
+        },
+        {
+            "filename": "Frame-16.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-16.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1410,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/university-icons-line-and-solid-BCX3VDN"
+        },
+        {
+            "filename": "woman-smile-face-close-up-6-e1638154401373.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/woman-smile-face-close-up-6-800x973.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 288443,
+            "dimensions": [
+                1234,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/close-up-of-happy-carefree-lady-laughing-and-smili-WFSL6DP"
+        },
+        {
+            "filename": "Group-15.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Group-15.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                }
+            ],
+            "filesize": 9545,
+            "dimensions": [
+                270,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/university-icons-line-and-solid-BCX3VDN"
+        },
+        {
+            "filename": "Group-16.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Group-16.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                }
+            ],
+            "filesize": 9267,
+            "dimensions": [
+                282,
+                247
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/university-icons-line-and-solid-BCX3VDN"
+        },
+        {
+            "filename": "Briliant.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Briliant.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                }
+            ],
+            "filesize": 11931,
+            "dimensions": [
+                373,
+                321
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/university-icons-line-and-solid-BCX3VDN"
+        },
+        {
+            "filename": "Bg-6.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Bg-6-800x265.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 91407,
+            "dimensions": [
+                3810,
+                1260
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/pastel-abstract-shapes-5-E9UAQVH"
+        },
+        {
+            "filename": "Bg-8.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Bg-8-800x703.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 37295,
+            "dimensions": [
+                1536,
+                1350
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/pastel-abstract-shapes-5-E9UAQVH"
+        },
+        {
+            "filename": "happy-woman.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/happy-woman-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 260170,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FEBTA7X"
+        },
+        {
+            "filename": "men-fashion.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/men-fashion-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 217157,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QCPG3JH"
+        },
+        {
+            "filename": "successful-man.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/successful-man-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 278372,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-E8JS5VQ"
+        },
+        {
+            "filename": "beautiful-woman-smiling-at-home.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/beautiful-woman-smiling-at-home-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 257293,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-S2DVGUT"
+        },
+        {
+            "filename": "young-successful-women-colleagues-discuss-joint-project-coaching-or-psychotherapy-in-modern-office.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/young-successful-women-colleagues-discuss-joint-project-coaching-or-psychotherapy-in-modern-office-800x552.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 451848,
+            "dimensions": [
+                2000,
+                1379
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AEMKDYC"
+        },
+        {
+            "filename": "background-1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/background-1-800x179.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 23248,
+            "dimensions": [
+                2340,
+                524
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/abstract-elements-and-shape-JLAKZJR"
+        },
+        {
+            "filename": "background-tablet.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/background-tablet-800x277.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 22622,
+            "dimensions": [
+                1536,
+                532
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/abstract-elements-and-shape-JLAKZJR"
+        },
+        {
+            "filename": "background-2.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/background-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 11321,
+            "dimensions": [
+                750,
+                539
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/abstract-elements-and-shape-JLAKZJR"
+        },
+        {
+            "filename": "Logo_Lyfes_white-3.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Logo_Lyfes_white-3-800x437.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 14971,
+            "dimensions": [
+                918,
+                501
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/lyfes\/"
+        },
+        {
+            "filename": "signature2.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/signature2.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 15103,
+            "dimensions": [
+                449,
+                208
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/angello-signature-KZE8D3T"
+        },
+        {
+            "filename": "background-wave_6-02.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/background-wave_6-02-800x272.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 383923,
+            "dimensions": [
+                8057,
+                2744
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/abstract-elegant-valentine-s-day-cards_12254882.htm"
+        },
+        {
+            "filename": "woman-in-spring-outfit-dress-e1638154513918.jpeg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/woman-in-spring-outfit-dress-800x921.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 123726,
+            "dimensions": [
+                903,
+                1040
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-feminine-woman-in-spring-outfit-dress-ho-AX6BCZZ"
+        },
+        {
+            "filename": "young-successful-women-colleagues-discuss-joint-project-coaching-in-loft-office.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/young-successful-women-colleagues-discuss-joint-project-coaching-in-loft-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 389659,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ATL3MZT"
+        },
+        {
+            "filename": "Frame-18.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-18.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 4904,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/international-ngo-icons-NEQC2Q5"
+        },
+        {
+            "filename": "Frame-17.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-17.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 3008,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cancer-care-icons-LWY8MTQ"
+        },
+        {
+            "filename": "Frame-12.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-12.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                }
+            ],
+            "filesize": 2888,
+            "dimensions": [
+                97,
+                99
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/mental-health-line-and-solid-J3LH49K"
+        },
+        {
+            "filename": "Frame-10.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-10.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                }
+            ],
+            "filesize": 2903,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/scholarship-icons-line-and-solid-7JPJD6R"
+        },
+        {
+            "filename": "Frame-11.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Frame-11.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-plans.json",
+                    "name": "Our Plans"
+                }
+            ],
+            "filesize": 4671,
+            "dimensions": [
+                96,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/scholarship-icons-line-and-solid-7JPJD6R"
+        },
+        {
+            "filename": "young-successful-women-colleagues-discuss-joint-project-coaching-or-mentoring-in-loft-office.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/young-successful-women-colleagues-discuss-joint-project-coaching-or-mentoring-in-loft-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 375222,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZJY5TRT"
+        },
+        {
+            "filename": "Blob_pink.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/lyfes\/wp-content\/uploads\/sites\/204\/2021\/11\/Blob_pink-800x813.png",
+            "templates": [
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 26484,
+            "dimensions": [
+                1248,
+                1269
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/lyfes\/"
+        }
+    ]
+}
