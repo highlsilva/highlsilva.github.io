@@ -844,14 +844,7 @@ footer p:nth-child(2) {
         background-position: center;
     }
 }*/
-.hero {
-  height: 53rem;
-  width: 100%;
-  margin-bottom: -79px;
-  /*  background-image: url(images/banner.png); */
-  background-size: cover;
-  background-position: center;
-}
+
 
 
 @media (max-width: 1169px) {
