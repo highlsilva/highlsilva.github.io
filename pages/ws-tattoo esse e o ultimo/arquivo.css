@@ -144,7 +144,9 @@ li.btn:hover {
 
     .mobile-menu {
         display: block;
-        margin-left: 156px;
+        margin-left: 29rem;
+        z-index: 200;
+        margin-top: -4rem;
     }
 }
 
