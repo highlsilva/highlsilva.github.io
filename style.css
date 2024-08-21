@@ -17,9 +17,9 @@ body {
 }
 
 .hero {
-    height: 60rem;
+   /* height: 60rem;*/
     width: 100%;
-    margin-bottom: -79px;
+    margin-bottom: -4px;
     /* background-image: url(imagens.html/imagem4.png);*/
     background-size: cover;
     background-position: center;
@@ -866,19 +866,29 @@ footer p:nth-child(2) {
     background-size: cover;
     background-position: center;
 }
-    
-}*/
+@media (min-width: 1249px) and (max-width: 1853px)
+.hero {
+   
+    width: 100%;
+    margin-bottom: -4px;
+   
+    background-size: cover;
+    background-position: center;
+}
+
+
+}
 
 @media (min-width: 1249px) and (max-width: 1390px) {
     .hero {
         height: 53rem;
         width: 100%;
         margin-bottom: -79px;
-        /*  background-image: url(imagens.html/imagem4.png); */
+       
         background-size: cover;
         background-position: center;
     }
-}
+}*/
 
 @media (max-width: 1169px) {
 
