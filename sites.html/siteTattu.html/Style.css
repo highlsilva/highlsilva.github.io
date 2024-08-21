@@ -1,0 +1,243 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  html {
+    height: 100vh;
+  }
+  
+  
+  body {
+    text-align: center;
+    background-image: url("./bodyTattu.jpeg");
+    background-repeat: no-repeat;
+    background-size: 108%;
+    font-family: Arial;
+    overflow: hidden;
+  }
+  
+  .retrato {
+    width: 230px;
+    border-radius: 230px;
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    transition: 0.3s;
+    margin-right: 40%;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .a2 {
+    display: inline-flex;
+    /* adicionei essa linha para o icone ficar do lado do texto */
+    align-items: center;
+    /* adicionei essa linha para o o icone e o texto ficarem na mesma altura */
+    justify-content: center;
+    /* adicionei essa linha para o o icone e o texto ficarem centralizados */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: rgba(253, 253, 253, 0.493);
+    width: 210px;
+  
+    height: 50px;
+    line-height: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .icone {
+    height: 29px;
+    width: 29px;
+    margin-top: 2%;
+    margin-bottom: 1px;
+  
+  }
+  
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    background: content-box;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+  
+  
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-family: Helvetica;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(250, 247, 247, 0.821);
+  
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-size: 30px;
+  }
+  
+  h4 {
+    margin-left: 12px;
+    /* margem de 12px na esquerda do texto */
+    margin-right: 12px;
+    /* margem de 12px na direta do texto */
+  }
+  
+  .logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-right: 29%;
+    color: rgb(243, 239, 239);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23233e;
+    height: 8vh;
+  }
+  
+  .nav-list {
+  
+    list-style: none;
+    display: flex;
+  
+  }
+  
+  .nav-list li {
+    letter-spacing: 4px;
+    margin-left: 32px;
+  
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  
+  }
+  
+  /* mobile-menu = botão menu */
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  @media (max-width: 1189px) {
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0px 0px;
+        margin-top: 2vh;
+    }
+  }
+  
+  @media (max-width: 845px) {
+    .content {
+        position: absolute;
+        top: 3rem;
+        left: 1rem;
+  
+        transform: translateY(-50%);
+    }
+  
+  }
+  
+  @media (max-width: 844px) {
+  
+   
+  }
+  @media (max-width: 999px) {
+    html {
+      background: rgb(0, 0, 8);
+      background: linear-gradient(0deg, rgba(0, 0, 8, 1) 0%, rgba(46, 46, 71, 1) 35%, rgba(0, 212, 255, 1) 100%);
+      background-repeat: no-repeat;
+    }
+  
+    body {
+     overflow-x: hidden;
+      height: 58rem;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+  }
+  
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0%;
+      width: 50vw;
+      height: calc(92vh - 8vh);
+      background: #23232e;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100vh);
+      transition: trasform 0.3s ease-in;
+      border-radius: 10px;
+  
+    }
+  
+    .nav-list li {
+      margin-left: 0%;
+      opacity: 10;
+  
+      list-style: none;
+  
+    }
+  
+    .mobile-menu {
+      display: block;
+      margin-left: 50px;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }

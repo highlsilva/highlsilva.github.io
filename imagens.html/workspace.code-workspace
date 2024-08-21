@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../highlsilva.github.io"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "highlsilva.github.io"
+	}
+}

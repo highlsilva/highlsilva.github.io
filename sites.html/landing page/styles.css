@@ -1,0 +1,262 @@
+body {
+    font-family: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+.titulo1 {
+    display: block;
+    margin-top: -17rem;
+    margin-bottom: 3rem;
+    color: black;
+    margin-left: 10rem;
+}
+
+.tituloA {
+    font-family: Areal, sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+    margin-left: -10rem;
+}
+
+.tituloB {
+    font-family: sans-serif;
+    font-size: 77px;
+    margin-top: -14px;
+    color: black;
+    margin-left: 7rem;
+}
+
+.h3 {
+    margin-top: -43px;
+    color: black;
+    margin-left: 7rem;
+}
+
+.titulo2 {
+    margin-left: 5%;
+    font-size: large;
+    margin-top: 2srem;
+    color: rgb(255, 255, 255);
+}
+
+.titulo3 {
+    margin-left: 5%;
+    font-size: 3rem;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.titulo4 {
+    padding: 0% 64% 0% 5%;
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.descricao {
+    margin-top: -37rem;
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 44rem;
+    margin-top: -76px;
+    margin-bottom: 12rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    padding-top: 10px;
+    padding-left: 0px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.img1 {
+    margin-left: 0px;
+    margin-right: 56rem;
+}
+
+.img2 {
+    width: 22rem;
+    margin-top: -5rem;
+    margin-left: 0px;
+    margin-right: 33rem;
+}
+
+.image-container {
+    width: 31rem;
+    height: 40rem;
+    overflow: hidden;
+    position: relative;
+    margin-left: 38rem;
+}
+
+.img3 {
+    margin-top: 20px;
+    width: 100%;
+    /* Ajusta a imagem para preencher a largura do contêiner */
+    height: 100%;
+    /* Ajusta a imagem para preencher a altura do contêiner */
+    object-fit: cover;
+    /* Corta a imagem para preencher o contêiner sem distorção */
+}
+
+
+main {
+    margin-top: 1rem;
+   /* margin-bottom: -16rem;*/
+    background-color: #153e1fd6;
+}
+
+
+.section1,
+.section2 {
+    margin-bottom: 6rem;
+}
+
+.section4 {
+    background-color: #218838;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.step h3 {
+    font-size: 56px;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: fit-content;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
+
+.step p {
+    margin: 0px;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.depoimentos {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.slide {
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    scroll-snap-type: x mandatory;
+}
+
+.slide .bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 50%;
+    width: 100%;
+    background-color: #218838;
+    z-index: -1;
+}
+
+.depoimento {
+    width: 25%;
+    min-width: 250px;
+    margin-top: 5%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.depoimento img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.depoimento p {
+
+    margin: 5px 0px;
+}
+
+.depoimento .nome {
+    text-align: right;
+    margin: 0px;
+    margin-top: -8px;
+}
+
+.depoimento.par {
+    margin-top: 20%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 2% 2% 2% 2%;
+    background-color: #6d9c22;
+    ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 31px;
+}
+
+.cta-button2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 71px;
+    margin-left: 3rem;
+    padding: 2% 3% 2% 2%;
+    background-color: #6d9c22;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 31px;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+.hightext {
+    font-size: 64px;
+    margin: 4px;
+}
+
+footer {
+    display: flex;
+    padding: 3rem 10px;
+}

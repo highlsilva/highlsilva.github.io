@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ios calculador</title>
+    <link rel="stylesheet" href="calculate.css">
+</head>
+
+<body>
+    <div class="calculate">
+        <div class="container">
+            <div class="results">
+            <p id="results">0</p>
+       </div>
+       
+        <div class="row">
+            <button class="light" onclick="clearResults()">AC</button>
+            <button class="light" onclick="parentesis()">&#40; &#41;</button>
+            <button class="light" onclick="dokey('%',true)">%</button>
+            <button class="orange" onclick="dokey('÷',true)">&divide;</button>
+        </div>
+        <div class="row">
+            <button onclick="dokey(7)">7</button>
+            <button onclick="dokey(8)">8</button>
+            <button onclick="dokey(9)">9</button>
+            <button class="orange" onclick="dokey('x',true)">&times;</button>
+        </div>
+
+        <div class="row">
+            <button onclick="dokey(4)">4</button>
+            <button onclick="dokey(5)">5</button>
+            <button onclick="dokey(6)">6</button>
+            <button class="orange" onclick="dokey('-',true)">&minus;</button>
+        </div>
+
+        <div class="row">
+            <button onclick="dokey(1)">1</button>
+            <button onclick="dokey(2)">2</button>
+            <button onclick="dokey(3)">3</button>
+            <button class="orange" onclick="dokey('+',true)">&plus;</button>
+        </div>
+
+        <div class="row">
+            <button class="zero" onclick="dokey(0)">0</button>
+            <button onclick="dokey('.')">.</button>
+            <button class="orange" onclick="calculate()">&equals;</button>
+        </div>
+    </div>
+ </div>
+</body>
+<script src="./calculate.js"></script>
+
+
+</html>
