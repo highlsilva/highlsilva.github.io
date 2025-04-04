@@ -66,6 +66,7 @@
     <div class="container">
       <h1>Formulario de Cadastro</h1>
       <form id="cadastroForm">
+        <p>Data de Nascimento</p>
         <input type="date" id="data" name="data" required placeholder="Data" />
         <input type="text" id="nome" name="nome" required placeholder="Nome" />
         <input
@@ -76,14 +77,14 @@
           placeholder="Idade"
         />
 
-        <label>Sexo:</label>
+        <label>gênero:</label>
         <div class="radio-group">
           <label
-            ><input type="radio" name="sexo" value="Masculino" required />
+            ><input type="radio" name="gênero" value="Masculino" required />
             Masculino</label
           >
           <label
-            ><input type="radio" name="sexo" value="Feminino" required />
+            ><input type="radio" name="gênero" value="Feminino" required />
             Feminino</label
           >
         </div>
@@ -127,7 +128,8 @@
             data: document.getElementById("data").value,
             nome: document.getElementById("nome").value,
             idade: document.getElementById("idade").value,
-            sexo: document.querySelector("input[name='sexo']:checked").value,
+            gênero: document.querySelector("input[name='gênero']:checked")
+              .value,
             departamento: document.getElementById("departamento").value,
             batizado: document.querySelector("input[name='batizado']:checked")
               ? document.querySelector("input[name='batizado']:checked").value
