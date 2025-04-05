@@ -25,7 +25,7 @@
       }
       h1 {
         color: #4caf50;
-        font-size: 22px;
+        font-size: 16px;
       }
       input,
       select {
@@ -60,13 +60,18 @@
         background-color: #ccc;
         cursor: not-allowed;
       }
+
+      p{
+          margin-bottom: 1px;
+          font-size: 15px;
+        }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Formulario de Cadastro</h1>
+      <h1>Formulario de Cadastro Advec Comendador Soares</h1>
       <form id="cadastroForm">
-        <p>Data de Nascimento</p>
+        <p>Data de Nascimento:</p>
         <input type="date" id="data" name="data" required placeholder="Data" />
         <input type="text" id="nome" name="nome" required placeholder="Nome" />
         <input
@@ -75,9 +80,9 @@
           name="idade"
           required
           placeholder="Idade"
-        />
+        /> 
 
-        <label>gênero:</label>
+        <label>Gênero:</label>
         <div class="radio-group">
           <label
             ><input type="radio" name="gênero" value="Masculino" required />
@@ -96,7 +101,7 @@
         </select>
 
         <div id="batizadoField">
-          <label>e Batizado?</label>
+          <label>Já é Batizado?</label>
           <div class="radio-group">
             <label
               ><input type="radio" name="batizado" value="Sim" required />
@@ -137,9 +142,9 @@
           };
 
           // Enviar dados para Google Sheets
-          fetch("https://api.sheetmonkey.io/form/5vVgQe4Dc7PrfAEFXM8mKT", {
+          fetch("https://api.sheetmonkey.io/form/o9REUBvtWJ78CaqAYLXe3w", {
             method: "POST",
-            body: JSON.stringify(formData),
+            body: JSON.stringify(formData), 
             headers: {
               "Content-Type": "application/json",
             },
